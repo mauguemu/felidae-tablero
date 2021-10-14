@@ -114,8 +114,10 @@ Column {data-width=500}
 felidae%>%
   st_drop_geometry()%>%
   select(scientificName, stateProvince, locality, eventDate)%>%
-  datatable()
-
+  datatable( felidae, options = list(
+    language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
+    pageLength = 5
+))
 ```
 
 ### Estacionalidad
