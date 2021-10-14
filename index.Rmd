@@ -72,7 +72,7 @@ altitud <-
 
 ```
 
-Column {data-width=600}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Mapa de distibución 
@@ -105,7 +105,7 @@ leaflet() %>%
 ```
 
 
-Column {data-width=400}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Registros de presencia
